@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Cab</title>
+    <!-- jquery cdn link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Boostrap css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap js bundle link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google fonts cdn link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- External css link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header starts -->
+    <header class="banner">
+      <!-- navbar starts -->
+      <nav>
+        <div class="main-nav">
+          <div class="wrapper">
+            <div class="main-nav-content">
+              <a href="./index.html" class="company-logo-link">
+                <div href="" class="company-logo">
+                  <i class="fa-solid fa-taxi"></i>
+                  <span class="logo-text"
+                    >Fast <span class="logo-text-highlighted">Cab</span></span
+                  >
+                </div>
+              </a>
+              <ul class="navbar-navigation">
+                <li class="nav-list">
+                  <a href="#" class="nav-link active-link">HOME</a>
+                </li>
+                <li class="nav-list">
+                  <a href="./about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-list">
+                  <a href="./services.html" class="nav-link">SERVICES</a>
+                </li>
+                <li class="nav-list">
+                  <a href="./contact.html" class="nav-link">CONTACTS</a>
+                </li>
+              </ul>
+              <i class="fa-solid fa-bars navbar-bar-icon"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar starts -->
+      <!-- banner starts -->
+      <div class="wrapper">
+        <div class="banner-content">
+          <h1>
+            Top <span class="banner-heading-highlight">cabs</span> at amazing
+            prices
+          </h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Reprehenderit sint veritatis maxime, eius quo repudiandae quisquam
+            nostrum.
+          </p>
+
+          <a href="./cab_book.html"
+            ><button class="banner-btn-1">Book Your Ride</button></a
+          >
+          <button class="banner-btn-2">Learn More</button>
+        </div>
+      </div>
+      <!-- banner ends -->
+    </header>
+    <!-- header ends -->
+
+    <main>
+      <!-- choose us section starts-->
+      <section>
+        <div class="choose-us">
+          <div class="wrapper">
+            <div class="choose-us-content">
+              <h2>Why Choose Us</h2>
+              <h3>Our Benefit Lists</h3>
+              <div class="choose-us-card-content" data-aos="fade-up"
+               data-aos-duration="1500">
+                <div class="choose-us-card">
+                  <div class="choose-us-card-logo-bg">
+                    <i class="fa-solid fa-map"></i>
+                  </div>
+                  <h4>RAPID CITY TRANSFER</h4>
+                  <p>
+                    Evolve sustainable e services for life grow biquitous
+                    through reliable is outside the box services.
+                  </p>
+                </div>
+                <div class="choose-us-card" id="choose-us-card2">
+                  <div class="choose-us-card-logo-bg">
+                    <i class="fa-solid fa-lock"></i>
+                  </div>
+                  <h4>SAFETY GUARANTEE</h4>
+                  <p>
+                    Evolve sustainable e services for life grow biquitous
+                    through reliable is outside the box services.
+                  </p>
+                </div>
+                <div class="choose-us-card">
+                  <div class="choose-us-card-logo-bg">
+                    <i class="fa-solid fa-car-side"></i>
+                  </div>
+                  <h4>PRO CLEARED DRIVERS</h4>
+                  <p>
+                    Evolve sustainable e services for life grow biquitous
+                    through reliable is outside the box services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- choose us section ends-->
+
+      <!-- facility section starts-->
+      <section>
+        <div class="wrapper">
+          <div class="facility-sec">
+            <div class="facility-sec-row1">
+              <img
+                src="./male-taxi-driver-with-female-passenger-chatting.jpg"
+                alt="facility_image"
+                loading="lazy"
+                data-aos="flip-up"
+                data-aos-duration="1000"
+              />
+              <div class="facility-sec-text">
+                <h2>
+                  Make your travel
+                  <span class="facility-sec-text-highlight">experience</span>
+                  <span class="facility-sec-text-highlight">smooth</span> and
+                  comfortable
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Adipisci modi repudiandae eligendi laborum, atque, dolore,
+                  minus necessitatibus aspernatur quo iste quas similique quasi
+                  architecto dolorum amet accusantium! Minima, quibusdam
+                  dolores!
+                </p>
+                <div class="facility-content">
+                  <div class="facility-content-card1" data-aos="fade-right"
+                  data-aos-duration="400">
+                    <i
+                      class="fa-solid fa-dollar-sign facility-content-card-icon"
+                    ></i>
+                    <div class="facility-content-card-text">
+                      <h3>Best Price Guarenteed</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="facility-content-card2" data-aos="fade-right"
+                  data-aos-duration="800">
+                    <i
+                      class="fa-solid fa-phone-volume facility-content-card-icon"
+                    ></i>
+                    <div class="facility-content-card-text">
+                      <h3>24/7 Customer Care</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="facility-content-card3" data-aos="fade-right"
+                  data-aos-duration="400">
+                    <i class="fa-solid fa-house facility-content-card-icon"></i>
+                    <div class="facility-content-card-text">
+                      <h3>Home Pickups</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="facility-content-card4" data-aos="fade-right"
+                  data-aos-duration="800">
+                    <i
+                      class="fa-solid fa-calendar-days facility-content-card-icon"
+                    ></i>
+                    <div class="facility-content-card-text">
+                      <h3>Easy Bookings</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- facility section ends-->
+
+      <!-- services section starts -->
+      <section>
+        <div class="services">
+          <div class="wrapper">
+            <div class="services-content">
+              <h2>Our Services</h2>
+              <h3 class="services-content-sub-heading">Make Easy Your Trip</h3>
+              <div class="services-card-content">
+                <div class="services-card" data-aos="flip-left" data-aos-duration="400">
+                  <div class="services-card-icon-bg">
+                    <i class="fa-solid fa-user services-card-icon"></i>
+                  </div>
+                  <h3>PRIVATE DRIVER</h3>
+                  <p>
+                    Enjoy the best customer service from our professional
+                    drivers.
+                  </p>
+                </div>
+                <div class="services-card" data-aos="flip-left" data-aos-duration="800">
+                  <div class="services-card-icon-bg">
+                    <i
+                      class="fa-solid fa-plane services-card-icon services-card-icon2"
+                    ></i>
+                  </div>
+                  <h3>AIRPORT TRANSFER</h3>
+                  <p>
+                    Comfortable transfer services from airport to any chosen
+                    address.
+                  </p>
+                </div>
+                <div class="services-card" data-aos="flip-left" data-aos-duration="1200">
+                  <div class="services-card-icon-bg">
+                    <i class="fa-solid fa-suitcase services-card-icon"></i>
+                  </div>
+                  <h3>BAGGAGE TRANSFER</h3>
+                  <p>
+                    If you need to collect your baggage, we are ready to help
+                    you.
+                  </p>
+                </div>
+                <div class="services-card" data-aos="flip-left" data-aos-duration="400">
+                  <div class="services-card-icon-bg">
+                    <i class="fa-regular fa-clock"></i>
+                  </div>
+                  <h3>HOURLY RENTALS</h3>
+                  <p>
+                    Enjoy the best customer service from our professional
+                    drivers.
+                  </p>
+                </div>
+                <div class="services-card" data-aos="flip-left" data-aos-duration="800">
+                  <div class="services-card-icon-bg">
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                  <h3>SCHEDULED RIDES</h3>
+                  <p>
+                    Comfortable transfer services from airport to any chosen
+                    address.
+                  </p>
+                </div>
+                <div class="services-card" data-aos="flip-left" data-aos-duration="1200">
+                  <div class="services-card-icon-bg">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                  <h3>RIDE SHARING</h3>
+                  <p>
+                    If you need to collect your baggage, we are ready to help
+                    you.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- services section ends -->
+
+      <!-- cars section starts-->
+      <section>
+        <div class="cars-sec">
+          <h2>Our Cars</h2>
+          <h3>Top Car Models</h3>
+          <div class="cars-sec-bg">
+            <div class="wrapper">
+              <div class="cars-sec-content">
+                <div
+                  id="carouselExampleCaptions"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <ol
+                    class="carousel-indicators carousel-circle-button-content"
+                  >
+                    <li
+                      data-target="#carouselExampleCaptions"
+                      data-slide-to="0"
+                      class="active"
+                      id="carousel-circle-button"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleCaptions"
+                      data-slide-to="1"
+                      id="carousel-circle-button"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleCaptions"
+                      data-slide-to="2"
+                      id="carousel-circle-button"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleCaptions"
+                      data-slide-to="3"
+                      id="carousel-circle-button"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleCaptions"
+                      data-slide-to="4"
+                      id="carousel-circle-button"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleCaptions"
+                      data-slide-to="5"
+                      id="carousel-circle-button"
+                    ></li>
+                  </ol>
+                  <div class="carousel-inner carousel-card">
+                    <div class="carousel-item active">
+                      <img
+                        src="./car1.png"
+                        class="d-block w-100 car-img-carousel"
+                        alt="car_image"
+                        loading="lazy"
+                      />
+                      <div
+                        class="carousel-caption d-none d-md-block carousel-card-content"
+                      >
+                        <h5 class="carousel-card-heading">HONDA CIVIC</h5>
+                        <p class="carousel-card-para">SEDAN</p>
+                        <div class="car-function">
+                          <span class="car-function-date">2015</span>
+                          <span class="car-function-automatic">AUTOMATIC</span>
+                          <span class="car-function-ac">AIR CONDITION</span>
+                        </div>
+                        <div class="car-function-tag">
+                          <i class="fa-solid fa-tag"></i>
+                          <span class="car-function-price">$51/DAY</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./car2.png"
+                        class="d-block w-100 car-img-carousel"
+                        alt="car_image"
+                        loading="lazy"
+                      />
+                      <div
+                        class="carousel-caption d-none d-md-block carousel-card-content"
+                      >
+                        <h5 class="carousel-card-heading">HONDA CIVIC</h5>
+                        <p class="carousel-card-para">SEDAN</p>
+                        <div class="car-function">
+                          <span class="car-function-date">2015</span>
+                          <span class="car-function-automatic">AUTOMATIC</span>
+                          <span class="car-function-ac">AIR CONDITION</span>
+                        </div>
+                        <div class="car-function-tag">
+                          <i class="fa-solid fa-tag"></i>
+                          <span class="car-function-price">$51/DAY</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./car3.png"
+                        class="d-block w-100 car-img-carousel"
+                        alt="car_image"
+                        loading="lazy"
+                      />
+                      <div
+                        class="carousel-caption d-none d-md-block carousel-card-content"
+                      >
+                        <h5 class="carousel-card-heading">HONDA CIVIC</h5>
+                        <p class="carousel-card-para">SEDAN</p>
+                        <div class="car-function">
+                          <span class="car-function-date">2015</span>
+                          <span class="car-function-automatic">AUTOMATIC</span>
+                          <span class="car-function-ac">AIR CONDITION</span>
+                        </div>
+                        <div class="car-function-tag">
+                          <i class="fa-solid fa-tag"></i>
+                          <span class="car-function-price">$51/DAY</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./car4.png"
+                        class="d-block w-100 car-img-carousel"
+                        alt="car_image"
+                        loading="lazy"
+                      />
+                      <div
+                        class="carousel-caption d-none d-md-block carousel-card-content"
+                      >
+                        <h5 class="carousel-card-heading">HONDA CIVIC</h5>
+                        <p class="carousel-card-para">SEDAN</p>
+                        <div class="car-function">
+                          <span class="car-function-date">2015</span>
+                          <span class="car-function-automatic">AUTOMATIC</span>
+                          <span class="car-function-ac">AIR CONDITION</span>
+                        </div>
+                        <div class="car-function-tag">
+                          <i class="fa-solid fa-tag"></i>
+                          <span class="car-function-price">$51/DAY</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./car5.png"
+                        class="d-block w-100 car-img-carousel"
+                        alt="car_image"
+                        loading="lazy"
+                      />
+                      <div
+                        class="carousel-caption d-none d-md-block carousel-card-content"
+                      >
+                        <h5 class="carousel-card-heading">HONDA CIVIC</h5>
+                        <p class="carousel-card-para">SEDAN</p>
+                        <div class="car-function">
+                          <span class="car-function-date">2015</span>
+                          <span class="car-function-automatic">AUTOMATIC</span>
+                          <span class="car-function-ac">AIR CONDITION</span>
+                        </div>
+                        <div class="car-function-tag">
+                          <i class="fa-solid fa-tag"></i>
+                          <span class="car-function-price">$51/DAY</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./car6.png"
+                        class="d-block w-100 car-img-carousel"
+                        alt="car_image"
+                        loading="lazy"
+                      />
+                      <div
+                        class="carousel-caption d-none d-md-block carousel-card-content"
+                      >
+                        <h5 class="carousel-card-heading">HONDA CIVIC</h5>
+                        <p class="carousel-card-para">SEDAN</p>
+                        <div class="car-function">
+                          <span class="car-function-date">2015</span>
+                          <span class="car-function-automatic">AUTOMATIC</span>
+                          <span class="car-function-ac">AIR CONDITION</span>
+                        </div>
+                        <div class="car-function-tag">
+                          <i class="fa-solid fa-tag"></i>
+                          <span class="car-function-price">$51/DAY</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev carousel-icon1"
+                    type="button"
+                    data-target="#carouselExampleCaptions"
+                    data-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next carousel-icon2"
+                    type="button"
+                    data-target="#carouselExampleCaptions"
+                    data-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </button>
+                </div>
+              </div>
+              <h2></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cars section ends-->
+
+      <!-- offers section starts -->
+      <section>
+        <div class="offers-sec">
+          <video class="offers-sec-video" autoplay loop muted>
+            <source src="./offers bg.mp4" />
+          </video>
+          <div class="offers-sec-bg-color"></div>
+          <div class="offers-sec-content">
+            <div class="wrapper">
+              <div class="offers-sec-content"></div>
+              <h2>Up To <span>50%</span> off</h2>
+              <h3>Secure your summer savings with our special offer!</h3>
+              <p>
+                <i class="fa-solid fa-check"></i> Slightly larger than economy
+                cars, offering more space and comfort without sacrificing fuel
+                efficiency.
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i> A balance between compact and
+                full-size cars, providing more room for passengers and luggage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- offers section ends -->
+
+      <!-- testimonials section starts -->
+      <section>
+        <div class="testimonials">
+          <div class="wrapper">
+            <div class="testimonials-content">
+              <h2>TESTIMONIALS</h2>
+              <p>People love us</p>
+              <div class="testimonials-card-content">
+                <div class="testimonials-card" data-aos="fade-right"  data-aos-duration="400">
+                  <img src="./testimonial1.jpg" alt="customer_img" loading="lazy" />
+                  <div class="testimonials-card-text1">
+                    <p>
+                      Just wanted to say how satisfied we were with the driver
+                      Mahesh, he was friendly and drove very well. The car was
+                      excellent and we will recommend your service. Many thanks.
+                      Kind regards.
+                    </p>
+                    <span class="quots1">”</span>
+                    <span class="clinet-name">April Smith</span><br />
+                    <span class="clinet-tag">(client)</span>
+                  </div>
+                </div>
+                <div class="testimonials-card testimonials-card2" data-aos="fade-right"  data-aos-duration="400">
+                  <div class="testimonials-card-text1 testimonials-card2-text">
+                    <p class="testimonials-card2-para">
+                      Just wanted to say how satisfied we were with the driver
+                      Mahesh, he was friendly and drove very well. The car was
+                      excellent and we will recommend your service. Many thanks.
+                      Kind regards.
+                    </p>
+                    <span class="clinet-name">James Brown</span><br />
+                    <span class="clinet-tag">(client)</span>
+                    <span class="quots2">“</span>
+                  </div>
+                  <img src="./testimonial-3.jpg" alt="customer_img" loading="lazy" class="testimonials-card2-image"/>
+                </div>
+                <div class="testimonials-card" data-aos="fade-right"  data-aos-duration="400">
+                  <img src="./testimonial-2.jpg" alt="customer_img" />
+                  <div class="testimonials-card-text1">
+                    <p class="testimonials-para">
+                      Just wanted to say how satisfied we were with the driver
+                      Mahesh, he was friendly and drove very well. The car was
+                      excellent and we will recommend your service. Many thanks.
+                      Kind regards.
+                    </p>
+                    <span class="clinet-name">Mary Jones</span><br />
+                    <span class="clinet-tag">(client)</span>
+                    <span class="quots1">”</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial section ends -->
+
+      <!-- contact section starts -->
+      <section>
+        <div class="contact">
+          <div class="wrapper">
+            <div class="contact-content">
+              <h2>CONTACT US</h2>
+              <p>Get in touch with us 24/7</p>
+              <form action="#" method="post" class="form">
+                <div class="form-row1">
+                  <input type="text" placeholder="Name*" class="form-name" />
+                  <input type="email" placeholder="Email*" class="form-email" />
+                </div>
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  class="form-subject"
+                /><br />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write Your Message"
+                  class="form-message"
+                ></textarea>
+                <span class="form-request-para">Please, leave a message</span
+                ><br />
+                <input type="submit" value="Send Message" id="submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section ends -->
+    </main>
+
+    <!-- footer starts -->
+    <footer>
+      <div class="footer">
+        <div class="wrapper">
+          <div class="footer-content">
+            <div class="footer-col1">
+              <a href="./index.html" class="company-logo-link"
+                ><div href="" class="footer-company-logo">
+                  <i class="fa-solid fa-taxi"></i>
+                  <span class="logo-text"
+                    >Fast <span class="logo-text-highlighted">Cab</span></span
+                  >
+                </div></a
+              >
+              <p class="footer-col1-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, blanditiis animi ea neque dolore nobis quo ipsum quia
+                ex reprehenderit nihil! Facere beatae nisi distinctio
+                voluptatibus? Veritatis esse maiores quod?
+              </p>
+            </div>
+            <ul class="footer-col2">
+              <li class="footer-link-heading"><span>Useful Links</span></li>
+              <li class="footer-link-list">
+                <a href="./index.html" class="footer-col2-link">Home</a>
+              </li>
+              <li class="footer-link-list">
+                <a href="./services.html" class="footer-col2-link">Services</a>
+              </li>
+              <li class="footer-link-list">
+                <a href="./about.html" class="footer-col2-link">About</a>
+              </li>
+              <li class="footer-link-list">
+                <a href="./cab_book.html" class="footer-col2-link">Get a cab</a>
+              </li>
+            </ul>
+            <ul class="footer-col3">
+              <li class="footer-link-heading"><span>Contact Info</span></li>
+              <li class="footer-link-list">
+                <a href="#" class="footer-col2-link"
+                  ><i class="fa-solid fa-envelope footer-col2-link-icon"></i
+                  >taxiservice@info.com</a
+                >
+              </li>
+              <li class="footer-link-list">
+                <a href="#" class="footer-col2-link"
+                  ><i class="fa-solid fa-phone footer-col2-link-icon"></i
+                  >8(800)7668990</a
+                >
+              </li>
+              <li class="footer-link-list">
+                <a href="#" class="footer-col2-link"
+                  ><i class="fa-solid fa-location-dot footer-col2-link-icon"></i
+                  >550 Mill Pond Ave. Arlington</a
+                >
+              </li>
+            </ul>
+            <div class="footer-col4">
+              <span class="footer-link-heading">Find on social network</span>
+              <div class="footer-col4-links-content">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook footer-col4-link"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-instagram footer-col4-link"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-twitter footer-col4-link"></i
+                ></a>
+                <a href="#"
+                  ><i class="fa-brands fa-pinterest footer-col4-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom-color">
+          <div class="wrapper">
+            <span class="footer-copyright">
+              © Copyrights 2018 Fast Cab. All Rights Reserved Terms of Use and
+              Privacy Policy
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="script.js"></script>
+    <!-- aos links -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
